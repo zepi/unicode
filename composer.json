@@ -1,6 +1,6 @@
 {
   "name": "zepi/unicode",
-  "description": "Unicode blocks with english and german names as well as with the regex pattern.",
+  "description": "Unicode blocks with English and German names, as well as with the regex pattern.",
   "keywords": ["unicode", "range", "block"],
   "type": "library",
   "license": "MIT",
