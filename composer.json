@@ -1,0 +1,21 @@
+{
+  "name": "zepi/unicode",
+  "description": "Unicode blocks with english and german names as well as with the regex pattern.",
+  "keywords": ["unicode", "range", "block"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Zobrist",
+      "homepage": "https://zepi.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "zepi\\Unicode\\": "src"
+    }
+  }
+}
