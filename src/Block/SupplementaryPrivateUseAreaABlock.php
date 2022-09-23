@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The SupplementaryPrivateUseAreaABlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The SupplementaryPrivateUseAreaABlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class SupplementaryPrivateUseAreaABlock extends AbstractBlock
 {
     protected string $key = 'SupplementaryPrivateUseAreaA';

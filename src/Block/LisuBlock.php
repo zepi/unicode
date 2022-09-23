@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The LisuBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The LisuBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class LisuBlock extends AbstractBlock
 {
     protected string $key = 'Lisu';

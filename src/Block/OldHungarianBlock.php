@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The OldHungarianBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The OldHungarianBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class OldHungarianBlock extends AbstractBlock
 {
     protected string $key = 'OldHungarian';

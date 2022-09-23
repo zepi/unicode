@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CountingRodNumeralsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CountingRodNumeralsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CountingRodNumeralsBlock extends AbstractBlock
 {
     protected string $key = 'CountingRodNumerals';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CJKUnifiedIdeographsExtensionABlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CJKUnifiedIdeographsExtensionABlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CJKUnifiedIdeographsExtensionABlock extends AbstractBlock
 {
     protected string $key = 'CJKUnifiedIdeographsExtensionA';

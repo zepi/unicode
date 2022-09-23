@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CJKCompatibilityBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CJKCompatibilityBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CJKCompatibilityBlock extends AbstractBlock
 {
     protected string $key = 'CJKCompatibility';

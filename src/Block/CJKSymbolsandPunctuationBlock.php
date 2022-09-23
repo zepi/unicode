@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CJKSymbolsandPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CJKSymbolsandPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CJKSymbolsandPunctuationBlock extends AbstractBlock
 {
     protected string $key = 'CJKSymbolsandPunctuation';

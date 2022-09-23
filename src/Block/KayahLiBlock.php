@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The KayahLiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The KayahLiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class KayahLiBlock extends AbstractBlock
 {
     protected string $key = 'KayahLi';

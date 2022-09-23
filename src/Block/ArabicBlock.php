@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The ArabicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The ArabicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class ArabicBlock extends AbstractBlock
 {
     protected string $key = 'Arabic';

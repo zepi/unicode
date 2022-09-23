@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The PhoenicianBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The PhoenicianBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class PhoenicianBlock extends AbstractBlock
 {
     protected string $key = 'Phoenician';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CuneiformNumbersandPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CuneiformNumbersandPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CuneiformNumbersandPunctuationBlock extends AbstractBlock
 {
     protected string $key = 'CuneiformNumbersandPunctuation';

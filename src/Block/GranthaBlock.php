@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The GranthaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The GranthaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class GranthaBlock extends AbstractBlock
 {
     protected string $key = 'Grantha';

@@ -1,9 +1,22 @@
 <?php
 
+/**
+ * The UnicodeIndex to help with the block classes
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode;
 
 use zepi\Unicode\Block\AbstractBlock;
 
+/**
+ * The UnicodeIndex to help with the block classes
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class UnicodeIndex
 {
     const classes = [
@@ -271,11 +284,22 @@ class UnicodeIndex
         'YijingHexagramSymbols' => 'zepi\Unicode\Block\YijingHexagramSymbolsBlock',
     ];
 
+    /**
+     * Returns an array with all block class names
+     *
+     * @return array
+     */
     public function getIndex()
     {
         return self::classes;
     }
 
+    /**
+     * Returns the block class for the given key or null, if the key does not exist3
+     *
+     * @param string $key
+     * @return null|string
+     */
     public function getBlockClassByKey(string $key): ?string
     {
         if (!isset(self::classes[$key])) {
@@ -285,6 +309,12 @@ class UnicodeIndex
         return self::classes[$key];
     }
 
+    /**
+     * Returns the block object for the given key or null, if the key does not exist.
+     *
+     * @param string $key
+     * @return null|\zepi\Unicode\Block\AbstractBlock
+     */
     public function getBlockByKey(string $key): ?AbstractBlock
     {
         $className = $this->getBlockClassByKey($key);

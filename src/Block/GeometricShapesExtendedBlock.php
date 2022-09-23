@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The GeometricShapesExtendedBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The GeometricShapesExtendedBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class GeometricShapesExtendedBlock extends AbstractBlock
 {
     protected string $key = 'GeometricShapesExtended';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The OpticalCharacterRecognitionBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The OpticalCharacterRecognitionBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class OpticalCharacterRecognitionBlock extends AbstractBlock
 {
     protected string $key = 'OpticalCharacterRecognition';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The MeeteiMayekBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The MeeteiMayekBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class MeeteiMayekBlock extends AbstractBlock
 {
     protected string $key = 'MeeteiMayek';

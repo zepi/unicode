@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The GothicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The GothicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class GothicBlock extends AbstractBlock
 {
     protected string $key = 'Gothic';

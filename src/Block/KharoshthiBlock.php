@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The KharoshthiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The KharoshthiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class KharoshthiBlock extends AbstractBlock
 {
     protected string $key = 'Kharoshthi';

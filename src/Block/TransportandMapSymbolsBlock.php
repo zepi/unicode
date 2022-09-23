@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The TransportandMapSymbolsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The TransportandMapSymbolsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class TransportandMapSymbolsBlock extends AbstractBlock
 {
     protected string $key = 'TransportandMapSymbols';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The YiRadicalsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The YiRadicalsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class YiRadicalsBlock extends AbstractBlock
 {
     protected string $key = 'YiRadicals';

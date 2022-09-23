@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The BrahmiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The BrahmiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class BrahmiBlock extends AbstractBlock
 {
     protected string $key = 'Brahmi';

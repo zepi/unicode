@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The ControlPicturesBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The ControlPicturesBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class ControlPicturesBlock extends AbstractBlock
 {
     protected string $key = 'ControlPictures';

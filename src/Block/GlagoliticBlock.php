@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The GlagoliticBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The GlagoliticBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class GlagoliticBlock extends AbstractBlock
 {
     protected string $key = 'Glagolitic';

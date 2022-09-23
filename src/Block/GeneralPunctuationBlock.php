@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The GeneralPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The GeneralPunctuationBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class GeneralPunctuationBlock extends AbstractBlock
 {
     protected string $key = 'GeneralPunctuation';

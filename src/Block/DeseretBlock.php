@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The DeseretBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The DeseretBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class DeseretBlock extends AbstractBlock
 {
     protected string $key = 'Deseret';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The EthiopicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The EthiopicBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class EthiopicBlock extends AbstractBlock
 {
     protected string $key = 'Ethiopic';

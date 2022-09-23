@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The RumiNumeralSymbolsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The RumiNumeralSymbolsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class RumiNumeralSymbolsBlock extends AbstractBlock
 {
     protected string $key = 'RumiNumeralSymbols';

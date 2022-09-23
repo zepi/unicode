@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The CombiningDiacriticalMarksExtendedBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The CombiningDiacriticalMarksExtendedBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class CombiningDiacriticalMarksExtendedBlock extends AbstractBlock
 {
     protected string $key = 'CombiningDiacriticalMarksExtended';

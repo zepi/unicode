@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The MendeKikakuiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The MendeKikakuiBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class MendeKikakuiBlock extends AbstractBlock
 {
     protected string $key = 'MendeKikakui';

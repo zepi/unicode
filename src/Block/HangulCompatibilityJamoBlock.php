@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The HangulCompatibilityJamoBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The HangulCompatibilityJamoBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class HangulCompatibilityJamoBlock extends AbstractBlock
 {
     protected string $key = 'HangulCompatibilityJamo';

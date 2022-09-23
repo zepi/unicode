@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The ArabicPresentationFormsBBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The ArabicPresentationFormsBBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class ArabicPresentationFormsBBlock extends AbstractBlock
 {
     protected string $key = 'ArabicPresentationFormsB';

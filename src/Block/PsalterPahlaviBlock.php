@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The PsalterPahlaviBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The PsalterPahlaviBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class PsalterPahlaviBlock extends AbstractBlock
 {
     protected string $key = 'PsalterPahlavi';

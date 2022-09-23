@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The ModifierToneLettersBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The ModifierToneLettersBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class ModifierToneLettersBlock extends AbstractBlock
 {
     protected string $key = 'ModifierToneLetters';

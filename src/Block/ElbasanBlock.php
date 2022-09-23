@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The ElbasanBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The ElbasanBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class ElbasanBlock extends AbstractBlock
 {
     protected string $key = 'Elbasan';

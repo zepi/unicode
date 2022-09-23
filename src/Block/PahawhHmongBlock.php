@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The PahawhHmongBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The PahawhHmongBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class PahawhHmongBlock extends AbstractBlock
 {
     protected string $key = 'PahawhHmong';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The SinhalaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The SinhalaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class SinhalaBlock extends AbstractBlock
 {
     protected string $key = 'Sinhala';

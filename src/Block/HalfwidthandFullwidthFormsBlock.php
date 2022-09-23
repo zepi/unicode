@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The HalfwidthandFullwidthFormsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The HalfwidthandFullwidthFormsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class HalfwidthandFullwidthFormsBlock extends AbstractBlock
 {
     protected string $key = 'HalfwidthandFullwidthForms';

@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The OsmanyaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The OsmanyaBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class OsmanyaBlock extends AbstractBlock
 {
     protected string $key = 'Osmanya';

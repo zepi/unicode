@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The MiscellaneousSymbolsandPictographsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The MiscellaneousSymbolsandPictographsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class MiscellaneousSymbolsandPictographsBlock extends AbstractBlock
 {
     protected string $key = 'MiscellaneousSymbolsandPictographs';

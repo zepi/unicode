@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The AnatolianHieroglyphsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The AnatolianHieroglyphsBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class AnatolianHieroglyphsBlock extends AbstractBlock
 {
     protected string $key = 'AnatolianHieroglyphs';

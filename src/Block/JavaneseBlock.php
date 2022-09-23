@@ -1,7 +1,20 @@
 <?php
 
+/**
+ * The JavaneseBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ * @copyright 2022 Matthias Zobrist
+ * @license MIT
+ */
+
 namespace zepi\Unicode\Block;
 
+/**
+ * The JavaneseBlock class
+ *
+ * @author Matthias Zobrist <matthias.zobrist@zepi.net>
+ */
 class JavaneseBlock extends AbstractBlock
 {
     protected string $key = 'Javanese';
