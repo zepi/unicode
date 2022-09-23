@@ -1,5 +1,5 @@
 # unicode
-A library with all unicode blocks. For every block the library contains the english and the german name as well as the start and end code and the regex pattern to match the block.
+A PHP library with all unicode blocks. For every block the library contains the English and the German name as well as the start and end value and the regex pattern to match the block.
 
 ```text
 composer require zepi/unicode
