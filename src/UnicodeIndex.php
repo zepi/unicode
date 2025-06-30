@@ -129,8 +129,6 @@ class UnicodeIndex
         'Hanunoo' => 'zepi\Unicode\Block\HanunooBlock',
         'Hatran' => 'zepi\Unicode\Block\HatranBlock',
         'Hebrew' => 'zepi\Unicode\Block\HebrewBlock',
-        'HighPrivateUseSurrogates' => 'zepi\Unicode\Block\HighPrivateUseSurrogatesBlock',
-        'HighSurrogates' => 'zepi\Unicode\Block\HighSurrogatesBlock',
         'Hiragana' => 'zepi\Unicode\Block\HiraganaBlock',
         'IPAExtensions' => 'zepi\Unicode\Block\IPAExtensionsBlock',
         'IdeographicDescriptionCharacters' => 'zepi\Unicode\Block\IdeographicDescriptionCharactersBlock',
@@ -166,7 +164,6 @@ class UnicodeIndex
         'LinearBIdeograms' => 'zepi\Unicode\Block\LinearBIdeogramsBlock',
         'LinearBSyllabary' => 'zepi\Unicode\Block\LinearBSyllabaryBlock',
         'Lisu' => 'zepi\Unicode\Block\LisuBlock',
-        'LowSurrogates' => 'zepi\Unicode\Block\LowSurrogatesBlock',
         'Lycian' => 'zepi\Unicode\Block\LycianBlock',
         'Lydian' => 'zepi\Unicode\Block\LydianBlock',
         'Mahajani' => 'zepi\Unicode\Block\MahajaniBlock',
@@ -289,9 +286,24 @@ class UnicodeIndex
      *
      * @return array
      */
-    public function getIndex()
+    public function getIndex(): array
     {
         return self::classes;
+    }
+
+    /**
+     * Returns an array with all block objects
+     *
+     * @return array
+     */
+    public function getBlocks(): array
+    {
+        $blocks = [];
+        foreach (self::classes as $className) {
+            $blocks[] = new $className();
+        }
+
+        return $blocks;
     }
 
     /**
